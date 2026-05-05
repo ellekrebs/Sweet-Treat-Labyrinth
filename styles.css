@@ -10,8 +10,15 @@ h1 {
     color: hotpink;
     font-size: 48px;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-weight: normal;
+}
+
+.subheading {
+    color: hotpink;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 40px;
 }
 
 .circle-container {
@@ -37,4 +44,16 @@ h1 {
 
 .circle:hover {
     background-color: #b3d1f0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 50px;
+    color: navy;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
 }
