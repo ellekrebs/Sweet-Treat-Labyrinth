@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    font-family: "Trebuchet MS", "Arial Rounded MT Bold", sans-serif;
+}
+
+h1 {
+    color: hotpink;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-weight: normal;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    background-color: #c7dcf4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.circle:hover {
+    background-color: #b3d1f0;
+}
