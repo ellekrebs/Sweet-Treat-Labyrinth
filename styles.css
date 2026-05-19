@@ -21,6 +21,20 @@ h1 {
     margin-bottom: 40px;
 }
 
+.dessert-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.dessert-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .circle-container {
     display: flex;
     justify-content: center;
@@ -50,8 +64,9 @@ h1 {
 }
 
 .dessert-image {
-    width: 300px;
+    width: 220px;
     border-radius: 20px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
